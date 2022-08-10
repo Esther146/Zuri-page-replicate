@@ -1,0 +1,296 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#index-main {
+  width: 100%;
+  height: 100vh;
+}
+#logo-section {
+  width: 100%;
+  height: 800px;
+  padding-top: 100px;
+  margin: 0 0 5em 0;
+  background-image: url("https://zuri.team/img/hero-bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#image-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6em;
+  margin-top: 0.5em;
+}
+#h1-p-div {
+  width: 50%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#h1-p-div h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(71, 69, 69);
+  margin-bottom: 1em;
+}
+#h1-p-div p {
+  font-size: 18px;
+  color: rgb(71, 69, 69);
+  margin-bottom: 6em;
+  text-align: center;
+}
+.red-color {
+  color: rgb(240, 3, 3);
+  opacity: 0.7;
+}
+#btn-div {
+  display: flex;
+}
+#red-btn {
+  background-color: rgb(241, 46, 46);
+  font-size: 16px;
+  padding: 10px;
+  margin-right: 1em;
+  width: 230px;
+  height: 50px;
+  border: none;
+  border-radius: 2px;
+}
+#red-btn a {
+  color: white;
+  text-decoration: none;
+}
+#red-btn:hover {
+  background-color: white;
+  border: 1px solid rgb(241, 46, 46);
+}
+#red-btn a:hover {
+  color: rgb(241, 46, 46);
+}
+#white-btn {
+  background-color: white;
+  font-size: 16px;
+  padding: 10px;
+  width: 250px;
+  height: 50px;
+  border: 1px solid rgb(241, 46, 46);
+  border-radius: 2px;
+  margin-bottom: 4em;
+  margin-left: 1em;
+}
+#white-btn a {
+  color: rgb(241, 46, 46);
+  text-decoration: none;
+}
+#white-btn:hover {
+  background-color: rgb(241, 46, 46);
+}
+#white-btn a:hover {
+  color: white;
+}
+#by-zuri-section {
+  width: 80%;
+  margin: 2em auto;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#by-zuri-div {
+  text-align: center;
+  width: 50%;
+  margin-top: 2em;
+}
+#by-zuri-div h3 {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb(241, 46, 46);
+}
+#by-zuri-div p {
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #514949;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+#zuri-team {
+  width: 100%;
+  margin: 2em auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#zuri-training {
+  width: 100%;
+  height: 600px;
+  padding: 2em 3em;
+  background-color: rgb(248, 239, 238);
+  opacity: 0.7;
+  margin: 4em 1em;
+  border-radius: 2px;
+}
+#zuri-training img {
+  margin-top: 1em;
+}
+#zuri-training p {
+  width: 80%;
+  font-size: 18px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#zuri-training a {
+  color: red;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+#zuri-internship {
+  width: 100%;
+  height: 600px;
+  padding: 3em 3em;
+  background-color: rgb(248, 239, 238);
+  opacity: 0.7;
+  margin: 4em 1em;
+  border-radius: 2px;
+}
+#zuri-internship img {
+  margin-top: 1em;
+}
+#zuri-internship p {
+  width: 80%;
+  font-size: 18px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#zuri-internship a {
+  color: red;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#zuri-talent {
+  width: 100%;
+  height: 600px;
+  padding: 3em;
+  background-color: rgb(248, 239, 238);
+  opacity: 0.7;
+  margin: 4em 1em;
+  border-radius: 2px;
+}
+#zuri-talent img {
+  margin-top: 1em;
+}
+#zuri-talent p {
+  width: 80%;
+  font-size: 18px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#zuri-talent a {
+  color: red;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+#link-section {
+  width: 80%;
+  margin: 6em auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2em;
+  padding: 0 2em;
+}
+#down-logo-div {
+  width: 100%;
+  margin: 0 2em;
+}
+#links-div {
+  width: 100%;
+}
+#contact {
+  width: 100%;
+}
+#follow-us {
+  width: 100%;
+  text-align: end;
+}
+#down-logo-div img {
+  width: 100px;
+}
+.alink {
+  color: red;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#links-div h2 {
+  color: rgb(71, 69, 69);
+  font-size: 18px;
+}
+#contact h2 {
+  color: rgb(71, 69, 69);
+  font-size: 18px;
+}
+#contact p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+#contact a {
+  font-size: 14px;
+  margin-top: 1em;
+}
+#follow-us h2 {
+  color: rgb(71, 69, 69);
+  font-size: 18px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+#follow-us .fa-facebook {
+  color: blue;
+  font-size: 20px;
+}
+#follow-us .fa-twitter {
+  color: rgb(118, 187, 252);
+  font-size: 20px;
+}
+#follow-us .fa-instagram {
+  color: rgb(180, 51, 94);
+  font-size: 20px;
+}
+#follow-us .fa-linkedin {
+  color: rgb(0, 132, 255);
+  font-size: 20px;
+}
+hr {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em auto;
+  border: 1px solid rgb(204, 202, 202);
+}
+#footer {
+  margin-bottom: 6em;
+}
+#footer p {
+  font-weight: 700;
+  color: rgb(71, 69, 69);
+  text-align: center;
+}
+
+
